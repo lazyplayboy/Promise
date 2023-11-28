@@ -1,0 +1,111 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/1420796.jpg);
+    margin: 0;
+    padding: 0;
+    width:100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-size:cover;
+        background-repeat: no-repeat;
+        
+}
+
+.container 
+{
+color: aliceblue;
+text-align: center;
+width: 100%;
+max-height: 200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3rem;
+font-style: italic;
+text-align: center;
+margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+align-items: center;
+    margin-right: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #1e90ff;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077c2;
+}
+
+.character-card {
+align-items: center;
+    height: 460px;
+    width: 414px;
+    background-color: black;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.character-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.character-name {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.character-id {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.character-info {
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.character-info-label {
+    font-weight: bold;
+}
+
+  
